@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frameworks CSS - Tipos y Aplicación</title>
+
+  <!-- Foundation CSS desde CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css">
+
+  <!-- Archivo de estilos personalizados -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- BARRA DE NAVEGACIÓN -->
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">Frameworks CSS</li>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#tipos">Tipos</a></li>
+        <li><a href="#aplicacion">Aplicación</a></li>
+        
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SECCIÓN INICIO -->
+  <section id="inicio" class="grid-container section-box">
+    <h1>¿Qué es un Framework CSS?</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/919/919827.png" alt="CSS Framework" class="hero-img">
+    <p>
+      Un framework CSS es un conjunto de herramientas y estilos predefinidos que permiten crear sitios web de forma más rápida, ordenada y adaptable a diferentes dispositivos. Estos frameworks incluyen sistemas de grillas, botones, formularios y componentes visuales listos para usar.
+    </p>
+  </section>
+
+  <!-- SECCIÓN TIPOS -->
+  <section id="tipos" class="grid-container section-box">
+    <h2>Tipos de Frameworks CSS Populares</h2>
+    <div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-4">
+      <div class="cell">
+        <img src="imagen4.jpg" alt="Foundation" class="framework-img">
+        <h5>Foundation</h5>
+        <p>Framework profesional con enfoque en accesibilidad y diseño responsive avanzado.</p>
+      </div>
+      <div class="cell">
+        <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap" class="framework-img">
+        <h5>Bootstrap</h5>
+        <p>El más usado del mundo. Fácil de aprender, con muchos componentes y plugins.</p>
+      </div>
+      <div class="cell">
+        <img src="imagen2.jpg" alt="Tailwind" class="framework-img">
+        <h5>Tailwind</h5>
+        <p>Framework de clases utilitarias para personalización completa del diseño.</p>
+      </div>
+      <div class="cell">
+        <img src="imagen.jpg" alt="Bulma" class="framework-img">
+        <h5>Bulma</h5>
+        <p>Basado en Flexbox. Minimalista, limpio y muy intuitivo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN APLICACIÓN -->
+  <section id="aplicacion" class="grid-container section-box">
+    <h2>Aplicación de los Frameworks CSS</h2>
+    <p>
+      Los frameworks CSS se utilizan en el desarrollo de sitios web empresariales, landing pages, aplicaciones móviles y sistemas administrativos. Permiten ahorrar tiempo, mantener la coherencia visual y mejorar la experiencia del usuario.
+    </p>
+    <video width="100%" controls>
+      <source src="video.MP4" type="video/mp4">
+      
+    </video>
+  </section>
+
+  
+
+  <!-- SECCIÓN CONTACTO -->
+  <section id="contacto" class="grid-container section-box">
+    <h2>Formulario de Contacto</h2>
+    <form>
+      <label>Nombre:
+        <input type="text" placeholder="Tu nombre completo" required>
+      </label>
+      <label>Email:
+        <input type="email" placeholder="ejemplo@email.com" required>
+      </label>
+      <label>Mensaje:
+        <textarea placeholder="Escribe tu mensaje aquí..." rows="4"></textarea>
+      </label>
+      <button type="submit" class="button success expanded">Enviar Mensaje</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="grid-container text-center">
+    <hr>
+    <p>© 2025 | Sitio web desarrollado con <strong>Foundation CSS</strong> para uso académico</p>
+  </footer>
+
+  <!-- Scripts de Foundation -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/what-input@5.2.10/dist/what-input.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js"></script>
+
+  <script>
+    $(document).foundation(); // Activación de componentes Foundation
+  </script>
+
+</body>
+</html>

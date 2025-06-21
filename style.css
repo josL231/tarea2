@@ -1,0 +1,59 @@
+/* Estilo general del sitio */
+body {
+  background-color: #f3f4f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Menú de navegación */
+.top-bar {
+  background-color: #1779ba;
+}
+
+.top-bar a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Secciones con diseño de tarjeta */
+.section-box {
+  background: #ffffff;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h1, h2, h5 {
+  color: #1779ba;
+}
+
+/* Imagen principal */
+.hero-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* Imágenes de frameworks */
+.framework-img {
+  width: 300px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Botón personalizado */
+button.success {
+  background-color: #28a745;
+}
+
+button.success:hover {
+  background-color: #218838;
+}
